@@ -1,0 +1,17 @@
+#Create a list of numbers, integers between -999 and 999
+numbers = []
+
+#keep track of the largest number so far 
+largest = -1000
+
+#iterate through the list
+for number in numbers :
+
+#compare current number to the largest number found so far 
+  if number > largest : 
+#if the current number is greater than the largest, assign it to largest
+
+largest = number
+
+#after w'ere done looping, print the largest number we found
+print("The largest number in the list", numbers, "is", largest)
