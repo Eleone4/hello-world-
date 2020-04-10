@@ -1,0 +1,16 @@
+Over the course of 5 games, a softball player scores 5,7,3,1, and 4 runs. What is her average runs per game?
+
+def calculate_average(runs, games):
+
+   sum_of_runs = 0
+   for runs in runs_list:
+     sum_of_runs += runs
+   avg = sum_of_runs / num_games 
+
+   return avg 
+
+  runs_list = [5, 7, 3, 1, 4]
+  num_games = len(runs_list)
+
+
+  print(calculate_average(runs_list, num_games))
